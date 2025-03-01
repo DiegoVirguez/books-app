@@ -1,0 +1,59 @@
+# Ignorar archivos específicos de IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+*.orig
+*.classpath
+*.project
+*.settings/
+*.springBeans
+*.sw?
+
+# Ignorar carpetas de compilación y dependencias
+out/
+build/
+target/
+bin/
+dist/
+*.jar
+*.war
+*.ear
+*.nar
+
+# Ignorar archivos de configuración local
+*.properties
+*.log
+*.cache
+*.prefs
+
+# Ignorar archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Node.js (si es un proyecto que usa Node)
+node_modules/
+npm-debug.log
+
+# Ignorar archivos de Python (si es un proyecto que usa Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignorar archivos de Maven (si es un proyecto Maven)
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+
+# Ignorar archivos de Gradle (si es un proyecto Gradle)
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Ignorar archivos de Eclipse (si también usas Eclipse)
+.settings/
+.metadata/
+.classpath
+.project
