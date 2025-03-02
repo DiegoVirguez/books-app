@@ -1,6 +1,7 @@
 package com.davirguezc.com;
 
 import com.davirguezc.com.model.Book;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
@@ -22,6 +23,7 @@ public class BookProcessor {
     static Logger logger = LoggerFactory.getLogger(BookProcessor.class);
 
     public static void main(String[] args) {
+
     }
 
     /*
